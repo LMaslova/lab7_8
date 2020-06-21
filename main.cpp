@@ -19,6 +19,7 @@ int main(int argc, char *argv[])
     w.showAllTables();
 
    w.showTableDataById(ticketsTable);
+   // w.showOrderedTicketsByUserId(5);
 
     ::testing::InitGoogleTest (&argc, argv);
     int returnCode = RUN_ALL_TESTS();
